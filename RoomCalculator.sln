@@ -1,0 +1,30 @@
+﻿using System;
+   namespace mondayWeekOne
+{
+    class Program
+        {
+            static void Main(string[] args)
+            {
+                Console.WriteLine ("What is the length of the Room?");
+               
+                double length = Double.Parse(Console.ReadLine());
+
+                Console.WriteLine(" What is the Width of the Room");
+
+                double width = Double.Parse(Console.ReadLine());
+                
+                Console.WriteLine ( "The Perimeter of the Room is " +  (length + width)*2 );
+
+                Console.WriteLine("The Area of the room is " + (length * width)); 
+
+
+
+
+
+
+
+
+        }
+
+    }
+    }
